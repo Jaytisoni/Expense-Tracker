@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css"/>
+    <title>Expense Tracker</title>
+</head>
+<body>
+    <center><h1>Expense Tracker</h1></center>
+
+    <div class="container">
+        <h4>Current Balance</h4>
+        <h1 id="Balance">Rs0.00</h1>
+
+
+    <div class="inc_exp-container">
+     <div>
+         <h4>Amount Credited</h4>
+         <p id="money-plus" class="money-plus">+Rs0.00 </p>
+     </div>
+
+     <div>
+        <h4>Amount Debited</h4>
+        <p id="money-minus" class="money-minus">-Rs0.00 </p>
+     </div>
+    </div>
+    <h3>Add new Transaction</h3>
+    <form id="form">
+      <div class="form-control">
+         <label for="text"> Transaction Subject</label>
+         <input type="text" id="text" placeholder="Enter the transaction Subject..."/>
+       </div>
+       <div class="form-control">
+         <label for="income-text"> Amount Credited</label>
+         <input type="number" id="income-text" placeholder="Enter the Amount Credited..."/>
+      </div>
+      <div class="form-control">
+         <label for="expense-text"> Amount Debited</label>
+         <input type="number" id="expense-text" placeholder="Enter the Amount Debited..."/>
+     </div>
+     <h3>Transactions</h3>
+     <ul id="list" class="list">
+        <!--<li class="minus">
+            Cash <span>-$400</span><button class="delete-btn">x</button>
+        </li> -->
+     </ul>
+     <button class="btn">Add Transaction</button>
+    </form>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
