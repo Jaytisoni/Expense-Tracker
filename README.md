@@ -10,6 +10,6 @@ A simple and user-friendly expense tracker created with HTML, CSS, and JavaScrip
 
 ## Installation
 
-1. Clone the repository:  git clone
+1. Clone the repository:  git clone: https://github.com/Jaytisoni/Expense-Tracker.git
 
 
